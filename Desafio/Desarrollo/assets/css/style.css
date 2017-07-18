@@ -1,0 +1,59 @@
+*{
+	font-family: ;
+}
+body{
+	background-color: #eee;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	background-color: #63caa1;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0%;
+	text-align: center
+}
+.container img{
+	max-width: 50px;
+	padding: 20px;
+}
+}
+form {
+  height: 36px;
+  margin-top: 5%;
+  border: 3px solid black;
+}
+input[type="text"] {
+  width: 30%;
+  height: 30px;
+  border: none;
+  font-size: 18px;
+  font-weight: normal;
+  padding-left: 10px;
+}
+.add {
+  
+  width: 4%;
+  height: 36px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+}
+ul {
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  color: #63caa1;
+}
+hr {
+  border-bottom: 0;
+  margin: 15px 0;
+}
+input[type="checkbox"] { width: 30px; }
+.remove {
+  float: right;
+  cursor: pointer;
+}
+.completed { text-decoration: line-through; }
